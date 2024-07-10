@@ -43,10 +43,10 @@ class MessagePopup extends StatelessWidget {
                       const SizedBox(width: 10),
                       ElevatedButton(
                         onPressed: () {},
-                        child: Text("취소"),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.grey,
                         ),
+                        child: const Text("취소"),
                       ),
                     ],
                   )
